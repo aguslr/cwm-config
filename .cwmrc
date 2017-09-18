@@ -1,0 +1,19 @@
+# https://manpages.debian.org/stretch/cwm/openbsd-cwm.1.en.html
+# https://manpages.debian.org/stretch/cwm/cwmrc.5.en.html
+
+# Change the default font for Xft
+fontname                "terminus:pixelsize=12"
+
+# Turn on sticky-group mode
+sticky                  yes
+
+# Define a “gap” in pixels at the edge of the screen
+gap                     30 0 0 0
+
+# Minimum distance to snap-to adjacent edge
+snapdist                10
+
+# Set the window border width
+borderwidth             5
+
+# vim: set ft=conf :
