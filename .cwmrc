@@ -72,6 +72,12 @@ bind M-r                exec                    # Launch “exec program” menu
 bind 4M-r               restart                 # Restart the running cwm
 bind 4M-Escape          quit                    # Quit cwm
 
+# Custom keyboard bindings
+bind 4-Tab              cycle                   # Forward cycle through windows
+bind 4S-Tab             rcycle                  # Reverse cycle through windows
+bind CM-Up              htile                   # Current window is tiled at the top of the screen
+bind CM-Left            vtile                   # Current window is tiled on the left of the screen
+
 # Default mouse bindings
 mousebind M-1           window_move             # Move current window
 mousebind M-2           window_grouptoggle      # Toggle group membership of current window
