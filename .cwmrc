@@ -118,5 +118,12 @@ bind 4M-7               group7                  # Select group 7
 bind 4M-8               group8                  # Select group 8
 bind 4M-9               group9                  # Select group 9
 
+# Auto-groups
+autogroup 1             "urxvt"
+autogroup 1             "xterm"
+autogroup 2             "chromium,Chromium"
+autogroup 2             "Navigator,Firefox"
+autogroup 2             "Navigator,Firefox-esr"
+
 
 # vim: set ft=conf :
