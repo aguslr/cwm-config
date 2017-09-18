@@ -16,4 +16,18 @@ snapdist                10
 # Set the window border width
 borderwidth             5
 
+# Border colors
+color activeborder      '#f3f3f3'               # Set the color of the active border
+color inactiveborder    '#1c1c1c'               # Set the color of the inactive border
+color urgencyborder     '#48c6ff'               # Set the color of the border of a window indicating urgency
+color groupborder       '#048ac7'               # Set the color of the border while grouping a window
+color ungroupborder     '#ff005b'               # Set the color of the border while ungrouping a window
+
+# Menu colors
+color font              '#e5e5e5'               # Set menu font color
+color selfont           '#f3f3f3'               # Set font color for selected menu item
+color menubg            '#1c1c1c'               # Set menu background color
+color menufg            '#048ac7'               # Set menu foreground color
+
+
 # vim: set ft=conf :
