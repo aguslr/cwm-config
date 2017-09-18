@@ -29,5 +29,48 @@ color selfont           '#f3f3f3'               # Set font color for selected me
 color menubg            '#1c1c1c'               # Set menu background color
 color menufg            '#048ac7'               # Set menu foreground color
 
+# Unmap default keyboard bindings
+bind CM-Return          unmap
+bind CM-Delete          unmap
+bind M-slash            unmap
+bind C-slash            unmap
+bind CM-x               unmap
+bind CM-1               unmap
+bind CM-2               unmap
+bind CM-3               unmap
+bind CM-4               unmap
+bind CM-5               unmap
+bind CM-6               unmap
+bind CM-7               unmap
+bind CM-8               unmap
+bind CM-9               unmap
+bind CM-0               unmap
+bind CM-g               unmap
+bind M-Right            unmap
+bind M-Left             unmap
+bind CMS-f              unmap
+bind CM-s               unmap
+bind CM-f               unmap
+bind CM-m               unmap
+bind M-question         unmap
+bind M-period           unmap
+bind CM-w               unmap
+bind CMS-r              unmap
+bind CMS-q              unmap
+
+# New default keyboard bindings
+bind 4-Return           terminal                # Spawn a new terminal
+bind CM-l               lock                    # Lock the screen
+bind M-space            search                  # Launch window search menu
+bind M-Tab              cycleingroup            # Forward cycle through windows in current group
+bind MS-Tab             rcycleingroup           # Reverse cycle through windows in current group
+bind M-F4               delete                  # Delete current window
+bind 4-o                stick                   # Stick current window to all groups
+bind 4-f                fullscreen              # Full-screen current window
+bind 4-m                maximize                # Maximize current window
+bind M-r                exec                    # Launch “exec program” menu
+bind 4M-r               restart                 # Restart the running cwm
+bind 4M-Escape          quit                    # Quit cwm
+
 
 # vim: set ft=conf :
