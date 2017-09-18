@@ -85,5 +85,38 @@ mousebind M-3           window_resize           # Resize current window
 mousebind M-4           cyclegroup              # Forward cycle through groups
 mousebind M-5           rcyclegroup             # Reverse cycle through groups
 
+# Groups keyboard bindings
+bind 4-g                grouptoggle             # Toggle group membership of current window
+bind 4-Right            cyclegroup              # Forward cycle through groups
+bind 4-Left             rcyclegroup             # Reverse cycle through groups
+bind 4-0                nogroup                 # Select all groups
+bind 4-1                grouponly1              # Show only group 1
+bind 4-2                grouponly2              # Show only group 2
+bind 4-3                grouponly3              # Show only group 3
+bind 4-4                grouponly4              # Show only group 4
+bind 4-5                grouponly5              # Show only group 5
+bind 4-6                grouponly6              # Show only group 6
+bind 4-7                grouponly7              # Show only group 7
+bind 4-8                grouponly8              # Show only group 8
+bind 4-9                grouponly9              # Show only group 9
+bind 4S-1               movetogroup1            # Move current window to group 1
+bind 4S-2               movetogroup2            # Move current window to group 2
+bind 4S-3               movetogroup3            # Move current window to group 3
+bind 4S-4               movetogroup4            # Move current window to group 4
+bind 4S-5               movetogroup5            # Move current window to group 5
+bind 4S-6               movetogroup6            # Move current window to group 6
+bind 4S-7               movetogroup7            # Move current window to group 7
+bind 4S-8               movetogroup8            # Move current window to group 8
+bind 4S-9               movetogroup9            # Move current window to group 9
+bind 4M-1               group1                  # Select group 1
+bind 4M-2               group2                  # Select group 2
+bind 4M-3               group3                  # Select group 3
+bind 4M-4               group4                  # Select group 4
+bind 4M-5               group5                  # Select group 5
+bind 4M-6               group6                  # Select group 6
+bind 4M-7               group7                  # Select group 7
+bind 4M-8               group8                  # Select group 8
+bind 4M-9               group9                  # Select group 9
+
 
 # vim: set ft=conf :
