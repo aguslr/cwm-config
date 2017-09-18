@@ -72,5 +72,12 @@ bind M-r                exec                    # Launch “exec program” menu
 bind 4M-r               restart                 # Restart the running cwm
 bind 4M-Escape          quit                    # Quit cwm
 
+# Default mouse bindings
+mousebind M-1           window_move             # Move current window
+mousebind M-2           window_grouptoggle      # Toggle group membership of current window
+mousebind M-3           window_resize           # Resize current window
+mousebind M-4           cyclegroup              # Forward cycle through groups
+mousebind M-5           rcyclegroup             # Reverse cycle through groups
+
 
 # vim: set ft=conf :
