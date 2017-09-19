@@ -22,6 +22,10 @@ ignore                  dzen2
 ignore                  lemonbar
 ignore                  tint2
 
+# Define special commands
+command term            urxvtc
+command lock            xautolock -locknow
+
 # Border colors
 color activeborder      '#f3f3f3'               # Set the color of the active border
 color inactiveborder    '#1c1c1c'               # Set the color of the inactive border
