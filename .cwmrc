@@ -16,6 +16,12 @@ snapdist                10
 # Set the window border width
 borderwidth             5
 
+# Ignore, and do not warp to, windows with these names
+ignore                  dmenu
+ignore                  dzen2
+ignore                  lemonbar
+ignore                  tint2
+
 # Border colors
 color activeborder      '#f3f3f3'               # Set the color of the active border
 color inactiveborder    '#1c1c1c'               # Set the color of the inactive border
