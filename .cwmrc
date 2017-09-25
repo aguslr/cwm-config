@@ -8,7 +8,7 @@ fontname                "terminus:pixelsize=12"
 sticky                  yes
 
 # Define a “gap” in pixels at the edge of the screen
-gap                     30 0 0 0
+gap                     0 0 0 0
 
 # Minimum distance to snap-to adjacent edge
 snapdist                10
