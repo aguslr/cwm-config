@@ -29,7 +29,7 @@ If Git is not installed, we can still get the files as long as we have a basic
 Unix environment available:
 
 ```sh
-wget https://github.com/aguslr/cwm-config/tarball/master -O - | tar -xzv --strip-components 1 --exclude={README.md}
+wget https://github.com/aguslr/cwm-config/tarball/main -O - | tar -xzv --strip-components 1 --exclude={README.md}
 ```
 
 ### Installing with Stow
